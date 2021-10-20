@@ -18,12 +18,12 @@ namespace zadanko_domowe
                     {
                         Console.Write(kulturoznawstwo + " ");
                         counter++;
-                    }
+                    } 
                     kulturoznawstwo++;
                 }
                 Console.WriteLine();
             }
-        }
+        } // algorytm
         static bool isPrime(int n)
         {
             if (n <= 1) return false;
