@@ -10,7 +10,7 @@ namespace zadanko_domowe
             int liczby;
             while ((liczby = int.Parse(Console.ReadLine())) != 42069)
             {
-                int counter = 0;
+                int counter = 0; 
                 int kulturoznawstwo = 0;
                 while (counter <= liczby)
                 {
